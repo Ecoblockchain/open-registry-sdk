@@ -8,7 +8,12 @@ npm install
 webpack
 ```
 
-notes: `open-registry-util` is a dependency. it needs to be published to npm before this works.
+notes:
+-  `open-registry-util` is a dependency. it needs to be published to npm before this works.
+- OpenRegistry.provider.js will need replacing
+  - `createHash('ripemd160')` to `createHash('rmd160')`
+  - `;\n  _crypto` to `,\n  _crypto`
+
 
 ## Introduction
 

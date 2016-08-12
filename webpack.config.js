@@ -10,8 +10,9 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'browser'),
-    filename: "[name].bundle.js",
-    chunkFilename: "[id].bundle.js"
+    filename: "OpenRegistry.[name].js",
+    library: ["OpenRegistry", "[name]"],
+    libraryTarget: "umd"
   },
 
   resolve: {
