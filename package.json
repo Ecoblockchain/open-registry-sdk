@@ -24,13 +24,23 @@
     "json-parser": "^1.1.5",
     "object-assign": "^4.1.0",
     "protobufjs": "^5.0.1",
+    "aes-js": "^1.0.0",
+    "crypto-browserify": "^3.11.0",
+    "fast-sha256": "^1.0.0",
+    "scryptsy": "^1.2.1",
     "web3": "^0.17.0-alpha",
     "web3-provider-engine": "^7.7.0"
   },
   "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
     "chai": "^3.5.0",
+    "json-loader": "^0.5.4",
     "mocha": "^2.5.3",
+    "proto-loader": "^0.2.0",
     "sinon": "^1.17.4",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.13.1"
   }
 }

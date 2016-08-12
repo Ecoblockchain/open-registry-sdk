@@ -1,5 +1,15 @@
 # Open Registry for IoT: SDK
 
+
+## Build
+
+```
+npm install
+webpack
+```
+
+notes: `open-registry-util` is a dependency. it needs to be published to npm before this works.
+
 ## Introduction
 
 Presented SDK provides you with interfaces to all Open Registry smart contracts' APIs in Ethereum blockchain.
