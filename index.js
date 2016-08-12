@@ -1,1 +1,1 @@
-module.exports = require('./lib/provider.js');
+module.exports = require('./browser/OpenRegistry.provider.js');
